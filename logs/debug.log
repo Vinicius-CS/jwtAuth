@@ -1,0 +1,27 @@
+2023-06-30 12:49:00 notice: Undefined property: UsersController::$pepper in /home/vinicius/Área de Trabalho/Projetos/jwtAuth/src/Controller/Api/UsersController.php on line 44
+Request URL: /api/user/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Controller\Controller::__get() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\Api\UsersController::login() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/src/Controller/Api/UsersController.php, line 44
+Cake\Controller\Controller::invokeAction() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Authentication\Middleware\AuthenticationMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/vinicius/Área de Trabalho/Projetos/jwtAuth/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/vinicius/Área de Trabalho/Projetos/jwtAuth/webroot/index.php, line 40
+
